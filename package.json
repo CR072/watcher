@@ -1,0 +1,30 @@
+{
+    "name": "dir-watcher",
+    "version": "1.0.0",
+    "description": "Directory watcher with TypeScript support",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "prepare": "npm run build",
+    "repository": "https://github.com/CR072/watcher",
+    "author": {
+        "name": "CR072",
+        "url": "https://github.com/CR072"
+    },
+    "engines": {
+        "node": ">=16.0"
+    },
+    "dependencies": {
+        "@types/node": "^20.8.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.2.2"
+    },
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "files": [
+        "dist/**/*"
+    ]
+}
